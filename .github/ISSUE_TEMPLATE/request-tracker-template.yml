@@ -1,7 +1,6 @@
 name: Request Pokemon
 description: Add Pokemon Requests Here
-labels:
-  - Pokemon Request
+labels: Pokemon Request
 assignees: AceGaming17
 body:
   - type: input
@@ -36,7 +35,7 @@ body:
       required: true
   - type: dropdown
     id: ball
-    attributes: null
+    attributes:
     label: Poke Ball Choice
     options:
       - Poke Ball
@@ -56,5 +55,5 @@ body:
       - Premier Ball
       - Repeat Ball
       - Heal Ball
-    validations: null
+    validations: 
     required: true
