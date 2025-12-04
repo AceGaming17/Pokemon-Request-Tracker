@@ -1,6 +1,7 @@
 name: Request Pokemon
 description: Add Pokemon Requests Here
 labels: Pokemon Request
+projects: Tracker Board
 assignees: AceGaming17
 body:
   - type: input
