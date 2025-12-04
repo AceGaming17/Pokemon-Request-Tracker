@@ -36,8 +36,8 @@ body:
   - type: dropdown
     id: ball
     attributes:
-    label: Poke Ball Choice
-    options:
+      label: Poke Ball Choice
+      options:
       - Poke Ball
       - Great Ball
       - Ultra Ball
