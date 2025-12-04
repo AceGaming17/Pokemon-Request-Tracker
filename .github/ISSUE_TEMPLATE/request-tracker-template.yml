@@ -1,0 +1,60 @@
+name: Request Pokemon
+description: Add Pokemon Requests Here
+labels: ["Pokemon Request"]
+assignees:
+- AceGaming17
+body:
+  - type: input
+    id: username
+    attributes:
+      label: TikTok Username
+    validations:
+      required: true
+  - type: checkboxes
+    id: shiny
+    attributes:
+      label: Is the requested Pokemon a Shiny?
+      options:
+      - label: Yes
+      - label: No
+    validations:
+      required: true
+- type: checkboxes
+    id: alpha
+    attributes:
+      label: Is the requested Pokemon an Alpha?
+      options:
+      - label: Yes
+      - label: No
+    validations:
+      required: true
+- type: input
+    id: pokemon
+    attributes:
+      label: Pokemon Requested
+    validations:
+      required: true
+- type: dropdown
+  id: ball
+  attributes:
+    label: Poke Ball Choice
+    options:
+      - Poke Ball
+      - Great Ball
+      - Ultra Ball
+      - Quick Ball
+      - Fast Ball
+      - Lure Ball
+      - Level Ball
+      - Heavy Ball
+      - Dive Ball
+      - Net Ball
+      - Luxury Ball
+      - Nest Ball
+      - Timer Ball
+      - Dusk Ball
+      - Premier Ball
+      - Repeat Ball
+      - Heal Ball
+  validations:
+    required: true
