@@ -43,7 +43,7 @@ body:
     id: gender
     attributes:
       label: Gender Choice
-      description: "Most Pokemon come with 2 genders, with some also having 1 and nоne. Some Pokemon also have unique styles depending on their gender."
+      description: Most Pokemon come with 2 genders, with some having 1 and some having nоne. Some Pokemon also have unique styles depending on their gender.
       options:
       - Doesn't Matter
       - Male
