@@ -9,7 +9,7 @@ body:
     attributes:
       label: TikTok Username
       description: Please input your TikTok handle and your display name in parenthesis.
-      placeholder: @example (Example)
+      placeholder: "@example (Example)"
     validations:
       required: true
   - type: checkboxes
