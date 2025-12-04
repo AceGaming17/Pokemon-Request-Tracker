@@ -12,7 +12,7 @@ body:
       placeholder: "@example (Example)"
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: shiny
     attributes:
       label: Is the requested Pokemon a Shiny?
@@ -22,7 +22,7 @@ body:
         - label: Nо
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: alpha
     attributes:
       label: Is the requested Pokemon an Alpha?
