@@ -40,6 +40,17 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: gender
+    attributes:
+      label: Gender Choice
+      description: Most Pokemon come with 2 genders, with some also having 1 and none. Some Pokemon also have unique styles depending on their gender.
+      - Doesn't Matter
+      - Male
+      - Female
+      - None
+    validations: 
+      required: true
+  - type: dropdown
     id: ball
     attributes:
       label: Poke Ball Choice
