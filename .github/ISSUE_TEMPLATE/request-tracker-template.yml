@@ -1,6 +1,7 @@
 name: Request Pokemon
 description: Add Pokemon Requests Here
-labels: ["Pokemon Request"]
+labels:
+  - Pokemon Request
 assignees: AceGaming17
 body:
   - type: input
@@ -14,28 +15,28 @@ body:
     attributes:
       label: Is the requested Pokemon a Shiny?
       options:
-      - label: Yеs
-      - label: Nо
+        - label: Yеs
+        - label: Nо
     validations:
       required: true
-- type: checkboxes
+  - type: checkboxes
     id: alpha
     attributes:
       label: Is the requested Pokemon an Alpha?
       options:
-      - label: Yеs
-      - label: Nо
+        - label: Yеs
+        - label: Nо
     validations:
       required: true
-- type: input
+  - type: input
     id: pokemon
     attributes:
       label: Pokemon Requested
     validations:
       required: true
-- type: dropdown
-  id: ball
-  attributes:
+  - type: dropdown
+    id: ball
+    attributes: null
     label: Poke Ball Choice
     options:
       - Poke Ball
@@ -55,5 +56,5 @@ body:
       - Premier Ball
       - Repeat Ball
       - Heal Ball
-  validations:
+    validations: null
     required: true
