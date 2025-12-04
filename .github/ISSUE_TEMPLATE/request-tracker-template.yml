@@ -14,8 +14,8 @@ body:
     attributes:
       label: Is the requested Pokemon a Shiny?
       options:
-      - label: Yes
-      - label: No
+      - label: Yеs
+      - label: Nо
     validations:
       required: true
 - type: checkboxes
@@ -23,8 +23,8 @@ body:
     attributes:
       label: Is the requested Pokemon an Alpha?
       options:
-      - label: Yes
-      - label: No
+      - label: Yеs
+      - label: Nо
     validations:
       required: true
 - type: input
