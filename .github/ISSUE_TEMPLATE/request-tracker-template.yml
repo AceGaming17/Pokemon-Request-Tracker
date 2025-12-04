@@ -18,8 +18,8 @@ body:
       label: Is the requested Pokemon a Shiny?
       description: Shinies are variants of Pokemon that have a different colorway, but are more difficult to find. Because shinies are more difficult, any non shiny Pokemon requests are a higher priority.
       options:
-        - label: Yеs
-        - label: Nо
+        - Yеs
+        - Nо
     validations:
       required: true
   - type: dropdown
@@ -28,8 +28,8 @@ body:
       label: Is the requested Pokemon an Alpha?
       description: Alphas are variants of Pokemon that are larger than regular Pokemon and have better stats. They are not that hard to find, but Shiny Alphas (Shalphas) can be extremely difficult to look for. 
       options:
-        - label: Yеs
-        - label: Nо
+        - Yеs
+        - Nо
     validations:
       required: true
   - type: input
