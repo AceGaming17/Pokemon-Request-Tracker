@@ -8,12 +8,15 @@ body:
     id: username
     attributes:
       label: TikTok Username
+      description: Please input your TikTok handle and your display name in parenthesis.
+      placeholder: @example (Example)
     validations:
       required: true
   - type: checkboxes
     id: shiny
     attributes:
       label: Is the requested Pokemon a Shiny?
+      description: Shinies are variants of Pokemon that have a different colorway, but are more difficult to find. Because shinies are more difficult, any non shiny Pokemon requests are a higher priority.
       options:
         - label: Yеs
         - label: Nо
@@ -23,6 +26,7 @@ body:
     id: alpha
     attributes:
       label: Is the requested Pokemon an Alpha?
+      description: Alphas are variants of Pokemon that are larger than regular Pokemon and have better stats. They are not that hard to find, but Shiny Alphas (Shalphas) can be extremely difficult to look for. 
       options:
         - label: Yеs
         - label: Nо
@@ -32,12 +36,14 @@ body:
     id: pokemon
     attributes:
       label: Pokemon Requested
+      description: Please give me the name of the Pokemon that you're requesting. Please don't request any legendary or mythical Pokemon. Your request will be ignored if you do so.
     validations:
       required: true
   - type: dropdown
     id: ball
     attributes:
       label: Poke Ball Choice
+      description: Please input which type of Poke Ball you would like for me to use when I catch your requested Pokemon. If you don't have a preference, I will use a Poke Ball. Master Ball is not present for obvious reasons.
       options:
       - Poke Ball
       - Great Ball
