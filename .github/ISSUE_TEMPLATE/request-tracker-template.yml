@@ -1,7 +1,7 @@
 name: Request Pokemon
 description: Add Pokemon Requests Here
-labels: "Pokemon Requests"
-projects: "AceGaming17/Tracker Board"
+labels: "Pokemon Request"
+projects: "AceGaming17/1"
 assignees: AceGaming17
 body:
   - type: input
